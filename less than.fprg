@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="addition of two numbers"/>
+        <attribute name="authors" value="ryeona"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:19:45 AM"/>
+        <attribute name="created" value="cnllb25hO1JZRU9OQVNIRVJJTjsyMDI2LTAxLTA2OzA5OjQ5OjI2IEFNOzI4NDk="/>
+        <attribute name="edited" value="cnllb25hO1JZRU9OQVNIRVJJTjsyMDI2LTAxLTA2OzEwOjE5OjQ1IEFNOzY7Mjk1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="5"/>
+            <if expression="num1&lt;num2">
+                <then>
+                    <output expression="&quot;num1 is lesser than num2&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;num2 is not lesser than num1&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

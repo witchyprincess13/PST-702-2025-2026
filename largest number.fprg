@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest number"/>
+        <attribute name="authors" value="ryeona"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:47:55 PM"/>
+        <attribute name="created" value="cnllb25hO1JZRU9OQVNIRVJJTjsyMDI2LTAxLTA2OzAyOjM4OjE2IFBNOzI4NTQ="/>
+        <attribute name="edited" value="cnllb25hO1JZRU9OQVNIRVJJTjsyMDI2LTAxLTA2OzAyOjQ3OjU1IFBNOzE7Mjk2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="5"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="32"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="64"/>
+            <if expression="a&gt;b&amp;&amp;a&gt;c">
+                <then>
+                    <output expression="&quot;the largest number is&quot; &amp;a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a&amp;&amp;b&gt;c">
+                        <then>
+                            <output expression="&quot;the largest number is&quot; &amp;b" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;the largest number is&quot; &amp;c" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
